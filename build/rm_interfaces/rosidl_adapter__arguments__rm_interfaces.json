@@ -1,0 +1,22 @@
+{
+  "package_name": "rm_interfaces",
+  "non_idl_tuples": [
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/Armor.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/Armors.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/Target.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/RuneTarget.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/Point2d.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/GimbalCmd.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/ChassisCmd.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/DebugLight.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/DebugLights.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/DebugArmor.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/DebugArmors.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/DebugRuneAngle.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/Measurement.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/JudgeSystemData.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/OperatorCommand.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:msg/SerialReceiveData.msg",
+    "/home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces:srv/SetMode.srv"
+  ]
+}

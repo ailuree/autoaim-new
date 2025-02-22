@@ -1,0 +1,17 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Armor.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Armors.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Target.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/RuneTarget.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Point2d.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/GimbalCmd.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/ChassisCmd.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/DebugLight.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/DebugLights.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/DebugArmor.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/DebugArmors.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/DebugRuneAngle.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Measurement.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/JudgeSystemData.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/OperatorCommand.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/SerialReceiveData.idl
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces/rosidl_adapter/rm_interfaces:srv/SetMode.idl

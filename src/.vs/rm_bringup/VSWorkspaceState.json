@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "\u672C\u5730\u8BA1\u7B97\u673A": [
+      "rm_bringup\\out\\build\\x64-Debug",
+      "rm_bringup\\out\\install\\x64-Debug"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+[ 11%] Built target gtest
+[ 23%] Built target armor_detector_node
+[ 35%] Built target gtest_main
+[ 76%] Built target armor_detector
+[ 88%] Built target test_detector
+[100%] Built target test_node_startup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/lib/armor_detector/armor_detector_node
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/armor_detector.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/armor_detector_node.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/ba_solver.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/graph_optimizer.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/light_corner_corrector.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/number_classifier.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/include/armor_detector/types.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/environment/library_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/environment/library_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/lib/libarmor_detector.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/blue.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/classify.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/gray_bin.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/hsv_bin.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/model.svg
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/num_bin.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/num_raw.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/num_roi.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/num_warp.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/origin1.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/origin2.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/pca1.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/pca2.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/raw.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/red.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/docs/test.png
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/model/label.txt
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/model/lenet.onnx
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/model/mlp.onnx
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/environment/path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/environment/path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/local_setup.bash
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/local_setup.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/local_setup.zsh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/local_setup.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/package.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_detector/share/armor_detector/package.xml

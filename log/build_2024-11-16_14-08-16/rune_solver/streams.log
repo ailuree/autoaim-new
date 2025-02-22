@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_solver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.490s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.497s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.653s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.726s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.819s] -- Found OpenCV: /usr (found version "4.5.4")
+[0.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.910s] -- Found Threads: TRUE
+[0.920s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.932s] -- Found required Ceres dependency: glog
+[0.934s] -- Found required Ceres dependency: gflags
+[0.935s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.138s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.160s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.199s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.559s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.568s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.773s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.846s] -- Found FastRTPS: /opt/ros/humble/include
+[1.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.523s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.526s] -- Found Eigen3: TRUE (found version "3.4.0")
+[2.526s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.085s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.122s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.127s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.174s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.176s] -- Configured cppcheck include dirs: /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_solver/include
+[3.176s] -- Configured cppcheck exclude dirs and/or files: 
+[3.179s] -- Added test 'lint_cmake' to check CMake code style
+[3.181s] -- Added test 'xmllint' to check XML markup files
+[3.193s] -- Configuring done (3.2s)
+[3.330s] -- Generating done (0.1s)
+[3.331s] -- Build files have been written to: /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver

@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector
+[0.028s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.222s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.286s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.286s]   By not providing "FindOpenVINO.cmake" in CMAKE_MODULE_PATH this project has
+[0.286s]   asked CMake to find a package configuration file provided by "OpenVINO",
+[0.287s]   but CMake did not find one.
+[0.287s] 
+[0.287s]   Could not find a package configuration file provided by "OpenVINO" with any
+[0.287s]   of the following names:
+[0.287s] 
+[0.287s]     OpenVINOConfig.cmake
+[0.287s]     openvino-config.cmake
+[0.287s] 
+[0.287s]   Add the installation prefix of "OpenVINO" to CMAKE_PREFIX_PATH or set
+[0.287s]   "OpenVINO_DIR" to a directory containing one of the above files.  If
+[0.287s]   "OpenVINO" provides a separate development package or SDK, be sure it has
+[0.287s]   been installed.
+[0.287s] 
+[0.287s] [0m
+[0.287s] -- Configuring incomplete, errors occurred!
+[0.290s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector' returned '1': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector

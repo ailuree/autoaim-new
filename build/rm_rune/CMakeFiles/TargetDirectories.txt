@@ -1,0 +1,9 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/uninstall.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/rm_rune_uninstall.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/test.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/edit_cache.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/rebuild_cache.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/list_install_components.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/install.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/install/local.dir
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_rune/CMakeFiles/install/strip.dir

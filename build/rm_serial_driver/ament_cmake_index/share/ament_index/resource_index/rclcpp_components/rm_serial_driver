@@ -1,0 +1,2 @@
+fyt::serial_driver::SerialDriverNode;lib/librm_serial_driver.so
+fyt::serial_driver::VirtualSerialNode;lib/librm_serial_driver.so

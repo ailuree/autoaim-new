@@ -1,0 +1,17 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/urdf/rm_gimbal.urdf.xacro
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/urdf/sentry.urdf.xacro
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/environment/path.sh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/environment/path.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/local_setup.bash
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/local_setup.sh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/local_setup.zsh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/local_setup.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/package.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/ament_index/resource_index/packages/rm_robot_description
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig-version.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_robot_description/share/rm_robot_description/package.xml

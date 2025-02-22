@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/t/version/FYT2024_vision-main/install/rune_solver/include/**",
+                "/home/t/version/FYT2024_vision-main/install/rune_detector/include/**",
+                "/home/t/version/FYT2024_vision-main/install/rm_serial_driver/include/**",
+                "/home/t/version/FYT2024_vision-main/install/armor_solver/include/**",
+                "/home/t/version/FYT2024_vision-main/install/armor_detector/include/**",
+                "/home/t/version/FYT2024_vision-main/install/rm_utils/include/**",
+                "/home/t/version/FYT2024_vision-main/install/rm_interfaces/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/t/version/FYT2024_vision-main/src/rm_auto_aim/armor_detector/include/**",
+                "/home/t/version/FYT2024_vision-main/src/rm_auto_aim/armor_solver/include/**",
+                "/home/t/version/FYT2024_vision-main/src/rm_hardware_driver/rm_serial_driver/include/**",
+                "/home/t/version/FYT2024_vision-main/src/rm_rune/rune_detector/include/**",
+                "/home/t/version/FYT2024_vision-main/src/rm_rune/rune_solver/include/**",
+                "/home/t/version/FYT2024_vision-main/src/rm_utils/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/rm_hardware_driver/rm_camera_driver/hikSDK/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

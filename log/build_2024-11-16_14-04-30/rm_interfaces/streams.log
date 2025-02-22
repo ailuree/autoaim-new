@@ -1,0 +1,637 @@
+[0.005s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.493s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.508s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.656s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.248s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.754s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.754s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.754s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.754s]   the cmake_policy command to set the policy and suppress this warning.
+[2.754s] 
+[2.754s] Call Stack (most recent call first):
+[2.754s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.754s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.754s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.755s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.755s] [0m
+[2.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[2.770s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.771s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.771s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.771s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.771s]   the cmake_policy command to set the policy and suppress this warning.
+[2.771s] 
+[2.771s] Call Stack (most recent call first):
+[2.771s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.771s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.771s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.771s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.771s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.771s] [0m
+[2.787s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.787s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.787s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.787s]   the cmake_policy command to set the policy and suppress this warning.
+[2.787s] 
+[2.787s] Call Stack (most recent call first):
+[2.787s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.787s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.787s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.787s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.787s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.787s] [0m
+[2.795s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[2.795s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.795s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.795s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.811s] -- Found PythonExtra: .so
+[2.984s] -- Configuring done (3.0s)
+[3.092s] -- Generating done (0.1s)
+[3.092s] -- Build files have been written to: /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces
+[3.102s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces
+[3.103s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces -- -j20 -l20
+[3.129s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.136s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.137s] [  0%] Built target ament_cmake_python_symlink_rm_interfaces
+[3.256s] running egg_info
+[3.257s] creating rm_interfaces.egg-info
+[3.257s] writing rm_interfaces.egg-info/PKG-INFO
+[3.257s] writing dependency_links to rm_interfaces.egg-info/dependency_links.txt
+[3.257s] writing top-level names to rm_interfaces.egg-info/top_level.txt
+[3.258s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[3.259s] reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[3.259s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[3.273s] [  0%] Built target ament_cmake_python_build_rm_interfaces_egg
+[3.619s] [  0%] Built target rm_interfaces__cpp
+[3.624s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.624s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.624s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.661s] [  4%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/rune_target__functions.c.o[0m
+[3.662s] [  4%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/target__functions.c.o[0m
+[3.662s] [  5%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armor__functions.c.o[0m
+[3.662s] [  6%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/point2d__functions.c.o[0m
+[3.662s] [  6%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armors__functions.c.o[0m
+[3.662s] [  7%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/chassis_cmd__functions.c.o[0m
+[3.662s] [  8%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[3.662s] [  9%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/debug_light__functions.c.o[0m
+[3.662s] [  9%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[3.663s] [  9%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[3.663s] [  9%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/judge_system_data__functions.c.o[0m
+[3.663s] [ 10%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/debug_rune_angle__functions.c.o[0m
+[3.663s] [ 11%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/measurement__functions.c.o[0m
+[3.663s] [ 11%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.c.o[0m
+[3.664s] [ 12%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/operator_command__functions.c.o[0m
+[3.664s] [ 12%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/serial_receive_data__functions.c.o[0m
+[3.664s] [ 13%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/srv/detail/set_mode__functions.c.o[0m
+[3.718s] [ 14%] [32m[1mLinking C shared library librm_interfaces__rosidl_generator_c.so[0m
+[3.742s] [ 14%] Built target rm_interfaces__rosidl_generator_c
+[3.748s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.748s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.748s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.951s] [ 18%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armors__type_support.cpp.o[0m
+[3.951s] [ 19%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/target__type_support.cpp.o[0m
+[3.951s] [ 19%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/rune_target__type_support.cpp.o[0m
+[3.952s] [ 19%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armor__type_support.cpp.o[0m
+[3.952s] [ 21%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[3.952s] [ 21%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/point2d__type_support.cpp.o[0m
+[3.952s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/chassis_cmd__type_support.cpp.o[0m
+[3.952s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/debug_light__type_support.cpp.o[0m
+[3.952s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[3.952s] [ 23%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[3.952s] [ 24%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/measurement__type_support.cpp.o[0m
+[3.953s] [ 24%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/debug_rune_angle__type_support.cpp.o[0m
+[3.953s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[3.955s] [ 26%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/judge_system_data__type_support.cpp.o[0m
+[3.959s] [ 26%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/operator_command__type_support.cpp.o[0m
+[4.186s] [ 27%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/serial_receive_data__type_support.cpp.o[0m
+[4.186s] [ 28%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/srv/set_mode__type_support.cpp.o[0m
+[4.207s] [ 28%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armor__type_support.cpp.o[0m
+[4.208s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armors__type_support.cpp.o[0m
+[4.208s] [ 30%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/target__type_support.cpp.o[0m
+[4.208s] [ 30%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/rune_target__type_support.cpp.o[0m
+[4.208s] [ 31%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/point2d__type_support.cpp.o[0m
+[4.209s] [ 31%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[4.210s] [ 32%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/chassis_cmd__type_support.cpp.o[0m
+[4.215s] [ 33%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/debug_light__type_support.cpp.o[0m
+[4.215s] [ 33%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[4.215s] [ 34%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[4.220s] [ 35%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[4.221s] [ 35%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/debug_rune_angle__type_support.cpp.o[0m
+[4.224s] [ 36%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/measurement__type_support.cpp.o[0m
+[4.230s] [ 36%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/judge_system_data__type_support.cpp.o[0m
+[4.231s] [ 37%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/operator_command__type_support.cpp.o[0m
+[4.233s] [ 38%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/serial_receive_data__type_support.cpp.o[0m
+[4.234s] [ 39%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[4.235s] [ 39%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[4.235s] [ 40%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/target__type_support.cpp.o[0m
+[4.236s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/rune_target__type_support.cpp.o[0m
+[4.237s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/point2d__type_support.cpp.o[0m
+[4.240s] [ 42%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o[0m
+[4.243s] [ 42%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/srv/set_mode__type_support.cpp.o[0m
+[4.248s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[4.248s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/chassis_cmd__type_support.cpp.o[0m
+[4.251s] [ 44%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[4.253s] [ 44%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[4.257s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[4.261s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/debug_rune_angle__type_support.cpp.o[0m
+[4.264s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/measurement__type_support.cpp.o[0m
+[4.272s] [ 47%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_c.so[0m
+[4.297s] [ 48%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/judge_system_data__type_support.cpp.o[0m
+[4.303s] [ 48%] Built target rm_interfaces__rosidl_typesupport_c
+[4.307s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/operator_command__type_support.cpp.o[0m
+[4.341s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[4.412s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/serial_receive_data__type_support.cpp.o[0m
+[4.449s] [ 50%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_cpp.so[0m
+[4.518s] [ 50%] Built target rm_interfaces__rosidl_typesupport_cpp
+[4.523s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/srv/detail/set_mode__type_support.cpp.o[0m
+[4.590s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[4.594s] [ 52%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[4.598s] [ 53%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/rune_target__type_support.cpp.o[0m
+[4.610s] [ 53%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/point2d__type_support.cpp.o[0m
+[4.613s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o[0m
+[4.614s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/chassis_cmd__type_support.cpp.o[0m
+[4.622s] [ 55%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[4.626s] [ 55%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[4.626s] [ 56%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[4.630s] [ 57%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[4.634s] [ 58%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[4.666s] [ 58%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/rune_target__type_support_c.cpp.o[0m
+[4.668s] [ 59%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armor__type_support.c.o[0m
+[4.672s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[4.673s] [ 59%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armors__type_support.c.o[0m
+[4.703s] [ 60%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/target__type_support.c.o[0m
+[4.705s] [ 61%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/debug_rune_angle__type_support.cpp.o[0m
+[4.708s] [ 62%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[4.732s] [ 62%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/rune_target__type_support.c.o[0m
+[4.746s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/point2d__type_support_c.cpp.o[0m
+[4.755s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/measurement__type_support.cpp.o[0m
+[4.771s] [ 64%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o[0m
+[4.788s] [ 65%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/point2d__type_support.c.o[0m
+[4.842s] [ 66%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.c.o[0m
+[4.900s] [ 67%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.907s] [ 67%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/chassis_cmd__type_support.c.o[0m
+[4.941s] [ 67%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/chassis_cmd__type_support_c.cpp.o[0m
+[4.945s] [ 68%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[4.962s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/judge_system_data__type_support.cpp.o[0m
+[4.973s] [ 70%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[4.975s] [ 70%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/operator_command__type_support.cpp.o[0m
+[4.983s] [ 71%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[4.983s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/serial_receive_data__type_support.cpp.o[0m
+[4.997s] [ 72%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[4.999s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[5.000s] [ 73%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[5.005s] [ 74%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[5.012s] [ 75%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[5.021s] [ 76%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/debug_rune_angle__type_support.c.o[0m
+[5.030s] [ 76%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/measurement__type_support.c.o[0m
+[5.030s] [ 77%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/judge_system_data__type_support.c.o[0m
+[5.030s] [ 77%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/operator_command__type_support.c.o[0m
+[5.030s] [ 77%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp
+[5.040s] [ 78%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[5.049s] [ 79%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/serial_receive_data__type_support.c.o[0m
+[5.053s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/measurement__type_support_c.cpp.o[0m
+[5.053s] [ 81%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[5.057s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/debug_rune_angle__type_support_c.cpp.o[0m
+[5.058s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/operator_command__type_support_c.cpp.o[0m
+[5.058s] [ 82%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/judge_system_data__type_support_c.cpp.o[0m
+[5.071s] [ 83%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/serial_receive_data__type_support_c.cpp.o[0m
+[5.075s] [ 84%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/srv/detail/set_mode__type_support_c.cpp.o[0m
+[5.080s] [ 84%] [32m[1mLinking C shared library librm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.105s] [ 84%] Built target rm_interfaces__rosidl_typesupport_introspection_c
+[5.354s] [ 84%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.362s] [ 84%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.404s] [ 84%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c
+[5.411s] [ 84%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.422s] [ 84%] Built target rm_interfaces
+[5.433s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.251s] [ 85%] Built target rm_interfaces__py
+[6.263s] [ 86%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armors_s.c.o[0m
+[6.263s] [ 86%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armor_s.c.o[0m
+[6.263s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_cmd_s.c.o[0m
+[6.263s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_target_s.c.o[0m
+[6.264s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_rune_target_s.c.o[0m
+[6.264s] [ 88%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_chassis_cmd_s.c.o[0m
+[6.264s] [ 88%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_debug_lights_s.c.o[0m
+[6.264s] [ 89%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_point2d_s.c.o[0m
+[6.264s] [ 90%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_debug_light_s.c.o[0m
+[6.264s] [ 91%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_debug_armor_s.c.o[0m
+[6.264s] [ 92%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_debug_armors_s.c.o[0m
+[6.264s] [ 93%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_measurement_s.c.o[0m
+[6.264s] [ 93%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_debug_rune_angle_s.c.o[0m
+[6.264s] [ 94%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_judge_system_data_s.c.o[0m
+[6.264s] [ 95%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_serial_receive_data_s.c.o[0m
+[6.264s] [ 95%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_operator_command_s.c.o[0m
+[6.264s] [ 95%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/srv/_set_mode_s.c.o[0m
+[6.358s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/librm_interfaces__rosidl_generator_py.so[0m
+[6.382s] [ 96%] Built target rm_interfaces__rosidl_generator_py
+[6.392s] [ 98%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.392s] [ 98%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.392s] [ 99%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.469s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.469s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.469s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.493s] [100%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.493s] [100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.494s] [100%] Built target rm_interfaces__rosidl_typesupport_c__pyext
+[6.501s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces -- -j20 -l20
+[6.741s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces
+[6.745s] -- Install configuration: ""
+[6.747s] -- Execute custom install script
+[6.747s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces
+[6.752s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.h
+[6.755s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.h
+[6.758s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.h
+[6.761s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_armor.h
+[6.764s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_armors.h
+[6.768s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_light.h
+[6.771s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_lights.h
+[6.774s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_rune_angle.h
+[6.777s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__functions.h
+[6.780s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.h
+[6.784s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.h
+[6.787s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__functions.h
+[6.790s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.h
+[6.793s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.h
+[6.797s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__functions.h
+[6.800s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.h
+[6.804s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__type_support.h
+[6.806s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__functions.h
+[6.810s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__struct.h
+[6.813s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__type_support.h
+[6.817s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__functions.h
+[6.820s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__struct.h
+[6.823s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__type_support.h
+[6.827s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__functions.h
+[6.830s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__struct.h
+[6.834s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__type_support.h
+[6.837s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__functions.h
+[6.841s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__struct.h
+[6.844s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__type_support.h
+[6.847s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__functions.h
+[6.851s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__struct.h
+[6.854s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__type_support.h
+[6.857s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h
+[6.860s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h
+[6.864s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h
+[6.867s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__functions.h
+[6.871s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__struct.h
+[6.874s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__type_support.h
+[6.877s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__functions.h
+[6.880s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__struct.h
+[6.883s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__type_support.h
+[6.886s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__functions.h
+[6.889s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__struct.h
+[6.893s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__type_support.h
+[6.896s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__functions.h
+[6.899s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__struct.h
+[6.903s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__type_support.h
+[6.906s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__functions.h
+[6.909s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__struct.h
+[6.913s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__type_support.h
+[6.916s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__functions.h
+[6.919s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__struct.h
+[6.923s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__type_support.h
+[6.926s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__functions.h
+[6.929s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.h
+[6.933s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.h
+[6.936s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h
+[6.939s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/judge_system_data.h
+[6.942s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/measurement.h
+[6.945s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/operator_command.h
+[6.948s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/point2d.h
+[6.951s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.955s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rune_target.h
+[6.958s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/serial_receive_data.h
+[6.961s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.h
+[6.965s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__functions.h
+[6.969s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__struct.h
+[6.972s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__type_support.h
+[6.975s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/set_mode.h
+[6.979s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh
+[6.982s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv
+[6.987s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[6.990s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[6.994s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_c.h
+[6.997s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[7.000s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[7.004s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[7.007s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[7.010s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__rosidl_typesupport_fastrtps_c.h
+[7.013s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h
+[7.016s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__rosidl_typesupport_fastrtps_c.h
+[7.020s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_c.h
+[7.022s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__rosidl_typesupport_fastrtps_c.h
+[7.026s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__rosidl_typesupport_fastrtps_c.h
+[7.029s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__rosidl_typesupport_fastrtps_c.h
+[7.033s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_fastrtps_c.h
+[7.037s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[7.040s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.043s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[7.047s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[7.050s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[7.054s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_c.h
+[7.057s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[7.060s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[7.064s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[7.066s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[7.070s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__rosidl_typesupport_introspection_c.h
+[7.073s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h
+[7.076s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__rosidl_typesupport_introspection_c.h
+[7.079s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_c.h
+[7.083s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__rosidl_typesupport_introspection_c.h
+[7.086s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__rosidl_typesupport_introspection_c.h
+[7.089s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__rosidl_typesupport_introspection_c.h
+[7.092s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_introspection_c.h
+[7.096s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[7.099s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.103s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[7.107s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.hpp
+[7.111s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.hpp
+[7.114s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/chassis_cmd.hpp
+[7.117s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_armor.hpp
+[7.120s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_armors.hpp
+[7.124s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_light.hpp
+[7.127s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_lights.hpp
+[7.131s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/debug_rune_angle.hpp
+[7.134s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__builder.hpp
+[7.138s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.hpp
+[7.142s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__traits.hpp
+[7.145s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__builder.hpp
+[7.148s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.hpp
+[7.152s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__traits.hpp
+[7.156s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__builder.hpp
+[7.161s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__struct.hpp
+[7.168s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__traits.hpp
+[7.173s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__builder.hpp
+[7.177s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__struct.hpp
+[7.180s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__traits.hpp
+[7.183s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__builder.hpp
+[7.187s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__struct.hpp
+[7.190s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__traits.hpp
+[7.194s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__builder.hpp
+[7.198s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__struct.hpp
+[7.202s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__traits.hpp
+[7.205s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__builder.hpp
+[7.209s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__struct.hpp
+[7.213s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__traits.hpp
+[7.217s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__builder.hpp
+[7.220s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__struct.hpp
+[7.224s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__traits.hpp
+[7.228s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp
+[7.232s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp
+[7.236s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp
+[7.240s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__builder.hpp
+[7.244s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__struct.hpp
+[7.248s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__traits.hpp
+[7.252s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__builder.hpp
+[7.256s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__struct.hpp
+[7.260s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__traits.hpp
+[7.263s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__builder.hpp
+[7.268s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__struct.hpp
+[7.272s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__traits.hpp
+[7.276s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__builder.hpp
+[7.280s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__struct.hpp
+[7.284s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__traits.hpp
+[7.288s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__builder.hpp
+[7.292s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__struct.hpp
+[7.296s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__traits.hpp
+[7.301s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__builder.hpp
+[7.305s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__struct.hpp
+[7.310s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__traits.hpp
+[7.314s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__builder.hpp
+[7.318s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.hpp
+[7.323s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__traits.hpp
+[7.327s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp
+[7.332s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/judge_system_data.hpp
+[7.336s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/measurement.hpp
+[7.341s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/operator_command.hpp
+[7.346s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/point2d.hpp
+[7.350s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rune_target.hpp
+[7.355s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/serial_receive_data.hpp
+[7.360s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.hpp
+[7.365s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__builder.hpp
+[7.369s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__struct.hpp
+[7.374s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__traits.hpp
+[7.379s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/set_mode.hpp
+[7.385s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[7.390s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[7.394s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.399s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[7.404s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[7.408s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[7.413s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[7.417s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[7.422s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.426s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.431s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp
+[7.436s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__rosidl_typesupport_fastrtps_cpp.hpp
+[7.441s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__rosidl_typesupport_fastrtps_cpp.hpp
+[7.446s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__rosidl_typesupport_fastrtps_cpp.hpp
+[7.450s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.455s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[7.460s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.464s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[7.470s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[7.474s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[7.478s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/chassis_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.483s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[7.487s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[7.491s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[7.496s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[7.501s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/debug_rune_angle__rosidl_typesupport_introspection_cpp.hpp
+[7.506s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.510s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/judge_system_data__rosidl_typesupport_introspection_cpp.hpp
+[7.515s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_cpp.hpp
+[7.520s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/operator_command__rosidl_typesupport_introspection_cpp.hpp
+[7.524s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/point2d__rosidl_typesupport_introspection_cpp.hpp
+[7.529s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/rune_target__rosidl_typesupport_introspection_cpp.hpp
+[7.534s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_introspection_cpp.hpp
+[7.538s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[7.543s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[7.547s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh
+[7.552s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv
+[7.557s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.562s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.567s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.572s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.578s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py
+[7.583s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c
+[7.587s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.592s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.596s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so
+[7.601s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py
+[7.605s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py
+[7.609s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_s.c
+[7.613s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py
+[7.618s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors_s.c
+[7.622s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py
+[7.626s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd_s.c
+[7.630s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_armor.py
+[7.635s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_armor_s.c
+[7.639s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_armors.py
+[7.643s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_armors_s.c
+[7.646s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_light.py
+[7.651s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_light_s.c
+[7.655s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_lights.py
+[7.659s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_lights_s.c
+[7.664s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_rune_angle.py
+[7.668s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_rune_angle_s.c
+[7.673s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py
+[7.677s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c
+[7.681s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_judge_system_data.py
+[7.685s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_judge_system_data_s.c
+[7.690s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement.py
+[7.694s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement_s.c
+[7.698s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_operator_command.py
+[7.702s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_operator_command_s.c
+[7.706s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_point2d.py
+[7.710s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_point2d_s.c
+[7.714s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_rune_target.py
+[7.719s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_rune_target_s.c
+[7.723s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data.py
+[7.726s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data_s.c
+[7.731s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py
+[7.735s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_s.c
+[7.739s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.743s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.747s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.751s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/__init__.py
+[7.755s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode.py
+[7.759s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode_s.c
+[7.763s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.764s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.765s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.766s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Armor.idl
+[7.771s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Armors.idl
+[7.775s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Target.idl
+[7.780s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/RuneTarget.idl
+[7.784s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Point2d.idl
+[7.789s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl
+[7.793s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.idl
+[7.799s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugLight.idl
+[7.803s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugLights.idl
+[7.807s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugArmor.idl
+[7.811s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugArmors.idl
+[7.815s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugRuneAngle.idl
+[7.820s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Measurement.idl
+[7.824s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/JudgeSystemData.idl
+[7.828s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/OperatorCommand.idl
+[7.832s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/SerialReceiveData.idl
+[7.837s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/srv/SetMode.idl
+[7.842s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Armor.msg
+[7.846s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Armors.msg
+[7.850s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Target.msg
+[7.854s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/RuneTarget.msg
+[7.858s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Point2d.msg
+[7.863s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg
+[7.867s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/ChassisCmd.msg
+[7.872s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugLight.msg
+[7.876s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugLights.msg
+[7.881s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugArmor.msg
+[7.885s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugArmors.msg
+[7.890s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/DebugRuneAngle.msg
+[7.894s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/Measurement.msg
+[7.899s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/JudgeSystemData.msg
+[7.903s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/OperatorCommand.msg
+[7.907s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/msg/SerialReceiveData.msg
+[7.911s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/srv/SetMode.srv
+[7.916s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/srv/SetMode_Request.msg
+[7.920s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/srv/SetMode_Response.msg
+[7.924s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces
+[7.929s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces
+[7.933s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh
+[7.937s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv
+[7.942s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/path.sh
+[7.946s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/environment/path.dsv
+[7.951s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/local_setup.bash
+[7.955s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/local_setup.sh
+[7.959s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/local_setup.zsh
+[7.964s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/local_setup.dsv
+[7.968s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/package.dsv
+[7.972s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces
+[7.976s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.981s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.985s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.989s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.994s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.998s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.002s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.006s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake
+[8.010s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake
+[8.014s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/package.xml
+[8.018s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so
+[8.018s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so" to ""
+[8.018s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.018s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.019s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so
+[8.019s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.019s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so
+[8.019s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so" to ""
+[8.019s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.019s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.019s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.020s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.020s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so
+[8.020s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.050s] Listing '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py'...
+[8.051s] Listing '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_chassis_cmd.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_armor.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_armors.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_light.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_lights.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_debug_rune_angle.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_judge_system_data.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_operator_command.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_point2d.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_rune_target.py'...
+[8.051s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data.py'...
+[8.052s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py'...
+[8.052s] Listing '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv'...
+[8.052s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/__init__.py'...
+[8.052s] Compiling '/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode.py'...
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so
+[8.054s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so" to ""
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake
+[8.054s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake
+[8.055s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.057s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_interfaces

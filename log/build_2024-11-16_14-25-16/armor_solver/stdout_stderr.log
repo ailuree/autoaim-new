@@ -1,0 +1,33 @@
+[ 16%] Built target gtest
+[ 33%] Built target armor_solver_node
+[ 50%] Built target gtest_main
+[ 83%] Built target armor_solver
+[100%] Built target test_node_startup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/lib/armor_solver/armor_solver_node
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/include/armor_solver/armor_solver.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/include/armor_solver/armor_solver_node.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/include/armor_solver/armor_tracker.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/environment/library_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/environment/library_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/lib/libarmor_solver.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/ament_index/resource_index/package_run_dependencies/armor_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/ament_index/resource_index/parent_prefix_path/armor_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/environment/ament_prefix_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/environment/path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/environment/path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/local_setup.bash
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/local_setup.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/local_setup.zsh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/local_setup.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/package.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/ament_index/resource_index/packages/armor_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/ament_index/resource_index/rclcpp_components/armor_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/cmake/armor_solverConfig.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/cmake/armor_solverConfig-version.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/armor_solver/share/armor_solver/package.xml

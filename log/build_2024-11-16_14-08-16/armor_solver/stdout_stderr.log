@@ -1,0 +1,17 @@
+[  8%] [32mBuilding CXX object CMakeFiles/armor_solver.dir/src/armor_solver.cpp.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/armor_solver.dir/src/armor_solver_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/armor_solver_node.dir/rclcpp_components/node_main_armor_solver_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/armor_solver.dir/src/armor_tracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 58%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX executable armor_solver_node[0m
+[ 66%] Built target armor_solver_node
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[ 83%] [32m[1mLinking CXX shared library libarmor_solver.so[0m
+[ 83%] Built target armor_solver
+[ 91%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_node_startup[0m
+[100%] Built target test_node_startup

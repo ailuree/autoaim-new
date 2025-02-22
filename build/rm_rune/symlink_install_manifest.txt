@@ -1,0 +1,15 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/ament_index/resource_index/package_run_dependencies/rm_rune
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/ament_index/resource_index/parent_prefix_path/rm_rune
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/environment/ament_prefix_path.sh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/environment/ament_prefix_path.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/environment/path.sh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/environment/path.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/local_setup.bash
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/local_setup.sh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/local_setup.zsh
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/local_setup.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/package.dsv
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/ament_index/resource_index/packages/rm_rune
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/cmake/rm_runeConfig.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/cmake/rm_runeConfig-version.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_rune/share/rm_rune/package.xml

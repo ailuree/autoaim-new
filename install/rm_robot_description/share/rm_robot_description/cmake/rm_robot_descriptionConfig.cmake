@@ -1,0 +1,1 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_robot_description/ament_cmake_core/rm_robot_descriptionConfig.cmake

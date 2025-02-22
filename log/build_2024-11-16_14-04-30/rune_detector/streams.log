@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.332s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.484s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.582s] -- Found OpenCV: /usr (found version "4.5.4")
+[0.595s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.595s]   By not providing "FindOpenVINO.cmake" in CMAKE_MODULE_PATH this project has
+[0.596s]   asked CMake to find a package configuration file provided by "OpenVINO",
+[0.596s]   but CMake did not find one.
+[0.596s] 
+[0.596s]   Could not find a package configuration file provided by "OpenVINO" with any
+[0.596s]   of the following names:
+[0.596s] 
+[0.596s]     OpenVINOConfig.cmake
+[0.596s]     openvino-config.cmake
+[0.596s] 
+[0.596s]   Add the installation prefix of "OpenVINO" to CMAKE_PREFIX_PATH or set
+[0.596s]   "OpenVINO_DIR" to a directory containing one of the above files.  If
+[0.596s]   "OpenVINO" provides a separate development package or SDK, be sure it has
+[0.596s]   been installed.
+[0.596s] 
+[0.597s] [0m
+[0.597s] -- Configuring incomplete, errors occurred!
+[0.600s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector' returned '1': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector

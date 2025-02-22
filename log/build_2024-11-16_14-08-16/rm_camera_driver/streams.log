@@ -1,0 +1,37 @@
+[0.006s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver -- -j20 -l20
+[0.037s] [ 25%] Built target video_player_node
+[0.041s] [ 50%] Built target rm_camera_driver_node
+[0.045s] [100%] Built target rm_camera_driver
+[0.050s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver -- -j20 -l20
+[0.080s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver
+[0.084s] -- Install configuration: ""
+[0.085s] -- Execute custom install script
+[0.087s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libFormatConversion.so
+[0.092s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMVRender.so
+[0.098s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMediaProcess.so
+[0.104s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMvCameraControl.so
+[0.110s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMvUsb3vTL.so
+[0.116s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/rm_camera_driver/rm_camera_driver_node
+[0.122s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/rm_camera_driver/video_player_node
+[0.128s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/library_path.sh
+[0.135s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/library_path.dsv
+[0.140s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/librm_camera_driver.so
+[0.147s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/package_run_dependencies/rm_camera_driver
+[0.152s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/parent_prefix_path/rm_camera_driver
+[0.156s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/ament_prefix_path.sh
+[0.159s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/ament_prefix_path.dsv
+[0.162s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/path.sh
+[0.166s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/path.dsv
+[0.169s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.bash
+[0.173s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.sh
+[0.177s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.zsh
+[0.179s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.dsv
+[0.183s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/package.dsv
+[0.186s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/packages/rm_camera_driver
+[0.190s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/rclcpp_components/rm_camera_driver
+[0.193s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.197s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.200s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/rm_camera_driverConfig.cmake
+[0.204s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/rm_camera_driverConfig-version.cmake
+[0.207s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/package.xml
+[0.211s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver

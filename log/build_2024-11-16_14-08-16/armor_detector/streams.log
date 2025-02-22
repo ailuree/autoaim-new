@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/armor_detector': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/armor_detector -- -j20 -l20
+[0.042s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.042s] [ 11%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[0.044s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.044s] [ 29%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/graph_optimizer.cpp.o[0m
+[0.045s] [ 29%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/ba_solver.cpp.o[0m
+[0.045s] [ 35%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_detector.cpp.o[0m
+[0.045s] [ 41%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/light_corner_corrector.cpp.o[0m
+[0.045s] [ 47%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_detector_node.cpp.o[0m
+[0.045s] [ 52%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[0.998s] [ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.043s] [ 58%] Built target gtest_main
+[2.898s] [ 64%] [32m[1mLinking CXX executable armor_detector_node[0m
+[2.966s] [ 64%] Built target armor_detector_node
+[6.013s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.049s] [ 70%] Built target gtest
+[16.713s] [ 76%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[16.942s] [ 76%] Built target armor_detector
+[16.952s] [ 82%] [32mBuilding CXX object CMakeFiles/test_detector.dir/test/test_detector.cpp.o[0m
+[16.952s] [ 88%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[20.051s] [ 94%] [32m[1mLinking CXX executable test_detector[0m
+[20.372s] [ 94%] Built target test_detector
+[21.630s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[21.868s] [100%] Built target test_node_startup

@@ -1,0 +1,23 @@
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/graph_optimizer.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/ba_solver.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_detector.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/light_corner_corrector.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/armor_detector_node.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 58%] Built target gtest_main
+[ 64%] [32m[1mLinking CXX executable armor_detector_node[0m
+[ 64%] Built target armor_detector_node
+[ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 70%] Built target gtest
+[ 76%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[ 76%] Built target armor_detector
+[ 82%] [32mBuilding CXX object CMakeFiles/test_detector.dir/test/test_detector.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable test_detector[0m
+[ 94%] Built target test_detector
+[100%] [32m[1mLinking CXX executable test_node_startup[0m
+[100%] Built target test_node_startup

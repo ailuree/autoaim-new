@@ -1,0 +1,1 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_auto_aim/ament_cmake_core/rm_auto_aimConfig.cmake

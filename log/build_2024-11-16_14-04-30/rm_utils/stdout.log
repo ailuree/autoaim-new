@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- Found FastRTPS: /opt/ros/humble/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0")
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4")
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_utils/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils
+[  9%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/logger_impl.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/writer.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/logger_pool.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/pnp_solver.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/trajectory_compensator.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/url_resolver.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/utils.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/extended_kalman_filter.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/heartbeat.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libfytlogger.so[0m
+[ 90%] Built target fytlogger
+[100%] [32m[1mLinking CXX shared library librm_utils.so[0m
+[100%] Built target rm_utils
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/assert.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/common.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/heartbeat.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/README.md
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/exception.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/global_mutex.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/logger_impl.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/writer.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/log.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/logger_pool.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/types.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/extended_kalman_filter.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/pnp_solver.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/trajectory_compensator.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/utils.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/url_resolver.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/package_run_dependencies/rm_utils
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/parent_prefix_path/rm_utils
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.bash
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.zsh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/packages/rm_utils
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig-version.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.xml
+-- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so
+-- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so" to ""
+-- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/libfytlogger.so
+-- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+-- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-noconfig.cmake
+-- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+-- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport-noconfig.cmake

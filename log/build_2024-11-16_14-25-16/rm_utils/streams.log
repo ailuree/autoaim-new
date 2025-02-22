@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils -- -j20 -l20
+[0.038s] [ 36%] Built target fytlogger
+[0.048s] [100%] Built target rm_utils
+[0.054s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils -- -j20 -l20
+[0.091s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils
+[0.095s] -- Install configuration: ""
+[0.095s] -- Execute custom install script
+[0.096s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/assert.hpp
+[0.096s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/common.hpp
+[0.096s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/heartbeat.hpp
+[0.096s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/README.md
+[0.096s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/exception.hpp
+[0.097s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/global_mutex.hpp
+[0.097s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/logger_impl.hpp
+[0.097s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/writer.hpp
+[0.097s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/log.hpp
+[0.097s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/logger_pool.hpp
+[0.097s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/types.hpp
+[0.098s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/extended_kalman_filter.hpp
+[0.098s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/pnp_solver.hpp
+[0.098s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/trajectory_compensator.hpp
+[0.098s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/utils.hpp
+[0.098s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/url_resolver.hpp
+[0.099s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.sh
+[0.099s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.dsv
+[0.099s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/package_run_dependencies/rm_utils
+[0.100s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/parent_prefix_path/rm_utils
+[0.100s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.sh
+[0.100s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.dsv
+[0.100s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.sh
+[0.100s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.dsv
+[0.101s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.bash
+[0.101s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.sh
+[0.101s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.zsh
+[0.102s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.dsv
+[0.102s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.dsv
+[0.105s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/packages/rm_utils
+[0.105s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_targets-extras.cmake
+[0.106s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.106s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig.cmake
+[0.106s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig-version.cmake
+[0.106s] -- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.xml
+[0.106s] -- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so
+[0.107s] -- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/libfytlogger.so
+[0.107s] -- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+[0.107s] -- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-noconfig.cmake
+[0.107s] -- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+[0.107s] -- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport-noconfig.cmake
+[0.109s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils

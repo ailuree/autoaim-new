@@ -1,0 +1,33 @@
+[ 25%] Built target video_player_node
+[ 50%] Built target rm_camera_driver_node
+[100%] Built target rm_camera_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libFormatConversion.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMVRender.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMediaProcess.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMvCameraControl.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/libMvUsb3vTL.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/rm_camera_driver/rm_camera_driver_node
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/rm_camera_driver/video_player_node
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/library_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/library_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/lib/librm_camera_driver.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/package_run_dependencies/rm_camera_driver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/parent_prefix_path/rm_camera_driver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/environment/path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.bash
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.zsh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/local_setup.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/package.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/packages/rm_camera_driver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/ament_index/resource_index/rclcpp_components/rm_camera_driver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/rm_camera_driverConfig.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/cmake/rm_camera_driverConfig-version.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_camera_driver/share/rm_camera_driver/package.xml

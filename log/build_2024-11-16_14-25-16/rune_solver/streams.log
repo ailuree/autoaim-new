@@ -1,0 +1,50 @@
+[0.018s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver -- -j20 -l20
+[0.054s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.056s] [ 16%] [32mBuilding CXX object CMakeFiles/rune_solver.dir/src/curve_fitter.cpp.o[0m
+[0.057s] [ 25%] [32mBuilding CXX object CMakeFiles/rune_solver.dir/src/rune_solver_node.cpp.o[0m
+[0.057s] [ 33%] [32mBuilding CXX object CMakeFiles/rune_solver_node.dir/rclcpp_components/node_main_rune_solver_node.cpp.o[0m
+[0.057s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/rune_solver.dir/src/rune_solver.cpp.o[0m
+[0.570s] [ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.612s] [ 58%] Built target gtest_main
+[2.141s] [ 66%] [32m[1mLinking CXX executable rune_solver_node[0m
+[2.203s] [ 66%] Built target rune_solver_node
+[4.556s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.607s] [ 75%] Built target gtest
+[14.127s] [ 83%] [32m[1mLinking CXX shared library librune_solver.so[0m
+[14.345s] [ 83%] Built target rune_solver
+[14.357s] [ 91%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[18.756s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[18.915s] [100%] Built target test_node_startup
+[18.920s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver -- -j20 -l20
+[18.950s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver
+[18.954s] -- Install configuration: ""
+[18.955s] -- Execute custom install script
+[18.956s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/lib/rune_solver/rune_solver_node
+[18.960s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/curve_fitter.hpp
+[18.963s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/rune_solver.hpp
+[18.968s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/rune_solver_node.hpp
+[18.972s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/types.hpp
+[18.975s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/library_path.sh
+[18.979s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/library_path.dsv
+[18.984s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/lib/librune_solver.so
+[18.989s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/package_run_dependencies/rune_solver
+[18.993s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/parent_prefix_path/rune_solver
+[18.998s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/ament_prefix_path.sh
+[19.003s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/ament_prefix_path.dsv
+[19.007s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/path.sh
+[19.011s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/path.dsv
+[19.015s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.bash
+[19.020s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.sh
+[19.023s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.zsh
+[19.028s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.dsv
+[19.032s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/package.dsv
+[19.037s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/packages/rune_solver
+[19.041s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/rclcpp_components/rune_solver
+[19.045s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.049s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.052s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/ament_cmake_export_libraries-extras.cmake
+[19.056s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/rune_solverConfig.cmake
+[19.059s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/rune_solverConfig-version.cmake
+[19.063s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/package.xml
+[19.068s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_solver

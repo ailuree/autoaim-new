@@ -1,0 +1,6 @@
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/libfytlogger.so
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-noconfig.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport-noconfig.cmake

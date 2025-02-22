@@ -1,0 +1,45 @@
+[ 36%] Built target fytlogger
+[100%] Built target rm_utils
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/assert.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/common.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/heartbeat.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/README.md
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/exception.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/global_mutex.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/logger_impl.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/writer.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/log.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/logger_pool.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/types.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/extended_kalman_filter.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/pnp_solver.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/trajectory_compensator.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/utils.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/url_resolver.hpp
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.sh
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.dsv
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/package_run_dependencies/rm_utils
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/parent_prefix_path/rm_utils
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.sh
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.dsv
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.bash
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.sh
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.zsh
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.dsv
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/packages/rm_utils
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig.cmake
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig-version.cmake
+-- Up-to-date symlink: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.xml
+-- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so
+-- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/libfytlogger.so
+-- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+-- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-noconfig.cmake
+-- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+-- Up-to-date: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport-noconfig.cmake

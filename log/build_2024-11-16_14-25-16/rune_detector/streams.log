@@ -1,0 +1,86 @@
+[0.019s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector
+[0.042s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.386s] -- Found Threads: TRUE
+[0.561s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.617s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.811s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.815s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.933s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.973s] -- Found FastRTPS: /opt/ros/humble/include
+[1.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.668s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.687s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.690s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.719s] -- Configured cppcheck include dirs: /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector/include
+[1.719s] -- Configured cppcheck exclude dirs and/or files: 
+[1.720s] -- Added test 'lint_cmake' to check CMake code style
+[1.722s] -- Added test 'xmllint' to check XML markup files
+[1.728s] -- Configuring done (1.7s)
+[1.846s] -- Generating done (0.1s)
+[1.846s] -- Build files have been written to: /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector
+[1.856s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_rune/rune_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector
+[1.858s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector -- -j20 -l20
+[1.888s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.888s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.888s] [ 30%] [32mBuilding CXX object CMakeFiles/rune_detector_node.dir/rclcpp_components/node_main_rune_detector_node.cpp.o[0m
+[1.888s] [ 30%] [32mBuilding CXX object CMakeFiles/rune_detector.dir/src/rune_detector.cpp.o[0m
+[1.888s] [ 38%] [32mBuilding CXX object CMakeFiles/rune_detector.dir/src/rune_detector_node.cpp.o[0m
+[2.398s] [ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.441s] [ 46%] Built target gtest_main
+[5.167s] [ 53%] [32m[1mLinking CXX executable rune_detector_node[0m
+[5.229s] [ 53%] Built target rune_detector_node
+[7.062s] [ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.113s] [ 61%] Built target gtest
+[14.842s] [ 69%] [32m[1mLinking CXX shared library librune_detector.so[0m
+[15.124s] [ 69%] Built target rune_detector
+[15.136s] [ 84%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[15.136s] [ 84%] [32mBuilding CXX object CMakeFiles/test_detector.dir/test/test_detector.cpp.o[0m
+[18.718s] [ 92%] [32m[1mLinking CXX executable test_detector[0m
+[19.061s] [ 92%] Built target test_detector
+[19.699s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[19.929s] [100%] Built target test_node_startup
+[19.934s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector -- -j20 -l20
+[19.972s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector
+[19.975s] -- Install configuration: ""
+[19.977s] -- Execute custom install script
+[19.978s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/lib/rune_detector/rune_detector_node
+[19.985s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/include/rune_detector/rune_detector.hpp
+[19.990s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/include/rune_detector/rune_detector_node.hpp
+[19.995s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/include/rune_detector/types.hpp
+[20.001s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/environment/library_path.sh
+[20.008s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/environment/library_path.dsv
+[20.015s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/lib/librune_detector.so
+[20.021s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/model/yolox_rune.bin
+[20.027s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/model/yolox_rune.onnx
+[20.032s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/model/yolox_rune.xml
+[20.038s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/model/yolox_rune_3.6m.bin
+[20.043s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/model/yolox_rune_3.6m.onnx
+[20.049s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/model/yolox_rune_3.6m.xml
+[20.054s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/docs/test.png
+[20.059s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/ament_index/resource_index/package_run_dependencies/rune_detector
+[20.064s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/ament_index/resource_index/parent_prefix_path/rune_detector
+[20.068s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/environment/ament_prefix_path.sh
+[20.073s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/environment/ament_prefix_path.dsv
+[20.079s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/environment/path.sh
+[20.085s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/environment/path.dsv
+[20.091s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/local_setup.bash
+[20.096s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/local_setup.sh
+[20.101s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/local_setup.zsh
+[20.107s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/local_setup.dsv
+[20.112s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/package.dsv
+[20.118s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/ament_index/resource_index/packages/rune_detector
+[20.123s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/ament_index/resource_index/rclcpp_components/rune_detector
+[20.129s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.134s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.139s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[20.145s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/cmake/rune_detectorConfig.cmake
+[20.150s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/cmake/rune_detectorConfig-version.cmake
+[20.156s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_detector/share/rune_detector/package.xml
+[20.164s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector' returned '0': AMENT_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib:/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2022.3.2/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022.3.2/runtime/lib/intel64:/usr/local/opencv4.6.0/lib PYTHONPATH=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rune_detector

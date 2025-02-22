@@ -1,0 +1,105 @@
+[0.007s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.337s] -- Detecting CXX compile features - done
+[0.339s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.559s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.568s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.585s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.747s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.751s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.891s] -- Found FastRTPS: /opt/ros/humble/include
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.017s] -- Found Threads: TRUE
+[1.153s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.159s] -- Found Eigen3: TRUE (found version "3.4.0")
+[1.160s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.216s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4")
+[1.228s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.285s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.285s] -- Configured cppcheck include dirs: /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_utils/include
+[1.285s] -- Configured cppcheck exclude dirs and/or files: 
+[1.287s] -- Added test 'lint_cmake' to check CMake code style
+[1.288s] -- Added test 'xmllint' to check XML markup files
+[1.291s] -- Configuring done (1.3s)
+[1.318s] -- Generating done (0.0s)
+[1.318s] -- Build files have been written to: /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils
+[1.328s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/xwz/1_fyt01/FYT2024_vision-main/src/rm_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils
+[1.329s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils -- -j20 -l20
+[1.354s] [  9%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/logger_impl.cpp.o[0m
+[1.355s] [ 18%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/writer.cpp.o[0m
+[1.355s] [ 27%] [32mBuilding CXX object CMakeFiles/fytlogger.dir/src/logger/logger_pool.cpp.o[0m
+[1.355s] [ 36%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/pnp_solver.cpp.o[0m
+[1.355s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/trajectory_compensator.cpp.o[0m
+[1.355s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/url_resolver.cpp.o[0m
+[1.356s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/utils.cpp.o[0m
+[1.356s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/math/extended_kalman_filter.cpp.o[0m
+[1.356s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_utils.dir/src/heartbeat.cpp.o[0m
+[1.978s] [ 90%] [32m[1mLinking CXX shared library libfytlogger.so[0m
+[2.045s] [ 90%] Built target fytlogger
+[5.163s] [100%] [32m[1mLinking CXX shared library librm_utils.so[0m
+[5.344s] [100%] Built target rm_utils
+[5.350s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils -- -j20 -l20
+[5.379s] Invoking command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils
+[5.382s] -- Install configuration: ""
+[5.383s] -- Execute custom install script
+[5.384s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/assert.hpp
+[5.388s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/common.hpp
+[5.392s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/heartbeat.hpp
+[5.396s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/README.md
+[5.400s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/exception.hpp
+[5.404s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/global_mutex.hpp
+[5.408s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/logger_impl.hpp
+[5.411s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/impl/writer.hpp
+[5.414s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/log.hpp
+[5.418s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/logger_pool.hpp
+[5.421s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/logger/types.hpp
+[5.426s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/extended_kalman_filter.hpp
+[5.430s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/pnp_solver.hpp
+[5.434s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/trajectory_compensator.hpp
+[5.437s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/math/utils.hpp
+[5.440s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/include/rm_utils/url_resolver.hpp
+[5.444s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.sh
+[5.448s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/library_path.dsv
+[5.452s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/package_run_dependencies/rm_utils
+[5.455s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/parent_prefix_path/rm_utils
+[5.458s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.sh
+[5.462s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/ament_prefix_path.dsv
+[5.465s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.sh
+[5.469s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/environment/path.dsv
+[5.473s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.bash
+[5.476s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.sh
+[5.479s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.zsh
+[5.482s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/local_setup.dsv
+[5.486s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.dsv
+[5.490s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/ament_index/resource_index/packages/rm_utils
+[5.493s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_targets-extras.cmake
+[5.497s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.500s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig.cmake
+[5.504s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsConfig-version.cmake
+[5.507s] -- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/package.xml
+[5.510s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so
+[5.511s] -- Set non-toolchain portion of runtime path of "/home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/librm_utils.so" to ""
+[5.511s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/lib/libfytlogger.so
+[5.512s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport.cmake
+[5.512s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/rm_utilsExport-noconfig.cmake
+[5.512s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport.cmake
+[5.512s] -- Installing: /home/xwz/1_fyt01/FYT2024_vision-main/install/rm_utils/share/rm_utils/cmake/fytloggerExport-noconfig.cmake
+[5.514s] Invoked command in '/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/xwz/1_fyt01/FYT2024_vision-main/build/rm_utils

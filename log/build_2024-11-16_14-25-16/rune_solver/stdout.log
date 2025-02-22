@@ -1,0 +1,46 @@
+[  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rune_solver.dir/src/curve_fitter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rune_solver.dir/src/rune_solver_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rune_solver_node.dir/rclcpp_components/node_main_rune_solver_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rune_solver.dir/src/rune_solver.cpp.o[0m
+[ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 58%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX executable rune_solver_node[0m
+[ 66%] Built target rune_solver_node
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[ 83%] [32m[1mLinking CXX shared library librune_solver.so[0m
+[ 83%] Built target rune_solver
+[ 91%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_node_startup[0m
+[100%] Built target test_node_startup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/lib/rune_solver/rune_solver_node
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/curve_fitter.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/rune_solver.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/rune_solver_node.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/include/rune_solver/types.hpp
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/library_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/library_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/lib/librune_solver.so
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/package_run_dependencies/rune_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/parent_prefix_path/rune_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/ament_prefix_path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/path.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/environment/path.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.bash
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.sh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.zsh
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/local_setup.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/package.dsv
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/packages/rune_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/ament_index/resource_index/rclcpp_components/rune_solver
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/rune_solverConfig.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/cmake/rune_solverConfig-version.cmake
+-- Symlinking: /home/xwz/1_fyt01/FYT2024_vision-main/install/rune_solver/share/rune_solver/package.xml

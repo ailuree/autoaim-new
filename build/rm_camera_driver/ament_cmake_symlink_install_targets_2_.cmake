@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/xwz/1_fyt01/FYT2024_vision-main/build/rm_camera_driver/librm_camera_driver.so" "TARGETS" "rm_camera_driver" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
